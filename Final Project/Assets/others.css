@@ -1,0 +1,58 @@
+@charset "utf-8";
+@import "base.css";
+body
+{
+    overflow: visible;
+}
+.banner2{
+
+    background-color: #FFF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about
+{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 5%;
+    text-align: left;
+}
+.about h2
+{
+    
+    text-align: center;
+    padding-bottom: 5px;
+}
+.about h3
+{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.center
+{
+    display: flex;
+    padding-left: 25%;
+}
+.about p
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.about img
+{
+    display: flex;
+    text-align: center;
+    padding-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+.about  a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
